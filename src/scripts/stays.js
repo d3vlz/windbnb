@@ -1,4 +1,19 @@
-const stays = [
+/**
+ * Un array de objetos que representa estancias en varias ciudades de Finlandia.
+ * Cada objeto contiene detalles sobre una estancia específica, incluyendo:
+ * 
+ * @constant {Array<Object>} stays
+ * @property {string} city - La ciudad donde se encuentra la estancia.
+ * @property {string} country - El país donde se encuentra la estancia (siempre "Finlandia").
+ * @property {boolean} superHost - Indica si el anfitrión es un superanfitrión.
+ * @property {string} title - El título o descripción de la estancia.
+ * @property {number} rating - La calificación de la estancia (sobre 5).
+ * @property {number} maxGuests - El número máximo de huéspedes permitidos.
+ * @property {string} type - El tipo de alojamiento (por ejemplo, "Apartamento entero", "Casa entera", "Habitación privada").
+ * @property {number|null} beds - El número de camas disponibles (puede ser null si no se especifica).
+ * @property {string} photo - Una URL a una foto del alojamiento.
+ */
+export const stays = [
     {
         "city": "Helsinki",
         "country": "Finland",
